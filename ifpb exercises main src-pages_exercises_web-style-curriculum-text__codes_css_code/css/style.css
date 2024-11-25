@@ -1,0 +1,32 @@
+html {
+    font-family: arial, sans-serif;
+    color: darkslategrey;
+    font-size: 17px
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+h1, h2, a, a:visited {
+    color: darkblue
+    /*visited é caso o link foi visitado.*/
+}
+
+h1 a {
+    color: white;
+}
+
+h2 a {
+    color: lightskyblue
+}
+
+h1:hover a, h2:hover a {
+    color: darkblue
+    /*hover é quando o mouse fica em cima do hyperlink.*/
+}
