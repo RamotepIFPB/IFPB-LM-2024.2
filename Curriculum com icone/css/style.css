@@ -1,0 +1,51 @@
+body {
+  color: darkslategrey;
+  font-family: arial, sans-serif;
+  font-size: 17px;
+}
+
+@font-face {
+  font-family: "Audiowide";
+  src: url("../fonts/Audiowide/Audiowide-Regular.ttf");
+}
+
+.text-center {
+  text-align: center;
+}
+
+#copyright {
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1 {
+  font-size:30px;
+  font-family: "Audiowide";
+}
+
+h2 {
+  font-size:24px;
+  background-color: lightskyblue;
+  border-radius: 5px;
+}
+
+h1, h2, a, a:visited {
+  color: darkblue;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a, h1 a:visited {
+  color: white;
+}
+h2 a, h2 a:visited {
+  color: lightskyblue;
+}
+h1:hover a, h2:hover a {
+  color: darkblue;
+}
