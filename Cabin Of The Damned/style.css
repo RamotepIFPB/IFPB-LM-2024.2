@@ -1,0 +1,223 @@
+/* GERAL */
+
+@font-face {
+  font-family: "KGAllOfYou";
+  src: url(fonts/KGAllOfYou.ttf) format('truetype');
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(images/Trabalho.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 200vh; /* Minimum viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.interface{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* TOPO */
+
+#icone {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -135px;
+}
+
+#criador {
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  margin-left: -250px;
+}
+
+#nome {
+  color: white;
+  position: absolute;
+  top: 25px;
+  margin-left: -375px;
+}
+
+header > .interface{
+  display: flex;
+  flex-basis: 200px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(15, 15, 15, 0.3);
+  height: 100px;
+  width: 100%;
+}
+
+/* ABOUT SECTION */
+
+#bg{
+  color: white;
+  text-align: center;
+  background-color: rgba(15, 15, 15, 0.3);
+  width: 770px;
+  margin: 0 auto;
+  transform: scale(1,20);
+  margin-top: -335px;
+}
+
+main > .about-topic {
+  display: flex;
+  justify-content: space-around;
+}
+
+main > .about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 800px;
+
+}
+
+#about {
+  color: black;
+  margin-top: 100px;
+  font-family: "KGAllOfYou";
+  font-size: 75px;
+}
+
+#about-text {
+  color: white;
+  text-align: center;
+  width: 750px;
+  padding-top: 10px;
+  font-family: 'Oswald';
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+main > .content-topic {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+#content {
+  margin-top: 75px;
+  font-family: "KGAllOfYou";
+  font-size: 75px;
+}
+
+#content-text {
+  text-align: center;
+  width: 750px;
+  font-family: 'Oswald';
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+main > .content {
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 225px;
+}
+
+main > .launch-topic {
+  display: flex;
+  justify-content: space-around;
+  font-style: row;
+  gap: 625px;
+}
+
+main > .launch-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 375px;
+}
+
+#launch {
+  color: black;
+  margin-top: 100px;
+  font-family: "KGAllOfYou";
+  font-size: 75px;
+}
+
+#launch-info {
+  color: white;
+  text-align: center;
+  width: 750px;
+  padding-top: 20px;
+  font-family: 'Oswald';
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#fotografia {
+  width: 500px;
+  height: 300px;
+}
+
+#game {
+  color: white;
+  text-align: center;
+  font-family: 'Oswald';
+  padding-top: 60px;
+}
+
+#roblox-icon {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  background: rgba(15, 15, 15, 0.3);
+  padding: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+footer > .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+#icons {
+  color: white;
+}
+
+#end-text {
+  color: white;
+  text-align: center;
+} 
