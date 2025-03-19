@@ -10,6 +10,18 @@
   .hidden-mobile {
     display: none
   }
+  #formulario-text {
+    width: 10px;
+  }
+}
+
+@keyframes hover {
+  0%, 100%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-75px);
+  }
 }
 
 *{
@@ -176,9 +188,14 @@ main > .launch-info {
   -webkit-text-stroke-color: black;
 }
 
+#personagem {
+  animation: hover 5s ease-in-out infinite;
+}
+
 #fotografia {
   width: 500px;
   height: 300px;
+  animation: hover 5s ease-in-out infinite;
 }
 
 #game {
@@ -194,7 +211,42 @@ main > .launch-info {
   margin-left: auto;
   margin-right: auto;
   padding-top: 25px;
+  animation-name: spin;
 }
+
+#entry {
+  color: red;
+  font-family: 'Oswald';
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  padding-top: 75px;
+}
+
+#formulario-text {
+  font-family: 'Oswald';
+  color: white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  min-width: 400px;
+  max-width: 700px;
+  padding-top: 10px;
+}
+
+#email-header {
+  font-family: 'Oswald';
+  color: lightgreen;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#text-header {
+  font-family: 'Oswald';
+  color: lightgreen;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+
 
 /* FOOTER */
 
